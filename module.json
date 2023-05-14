@@ -2,7 +2,7 @@
     "name": "inkfinder2",
     "title": "Inkfinder 2",
     "description": "A module containing the exported Inkfinder 2 compendium.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
     "compatibility": {
