@@ -1,0 +1,80 @@
+{
+    "name": "inkfinder2",
+    "title": "Inkfinder 2",
+    "description": "A module containing the exported Inkfinder 2 compendium.",
+    "version": "1.0.0",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "molotgor",
+            "email": "",
+            "url": ""
+        }
+    ],
+	"flags": {
+		"inkfinder2": {
+			"pf2e-homebrew": {
+				"equipmentTraits": {
+					"curse": {
+						"label": "Curse",
+						"description": "This equipment transfers or bestows a curse."
+					},
+					"harrow": {
+					  "label": "Harrow",
+					  "description": "This equipment depicts one of the 54 cards from the harrow deck"
+					}
+				}
+			}
+		}
+	},
+    "packs": [
+        {
+            "type": "Item",
+            "label": "Inkfinder 2 Tattoos",
+            "module": "inkfinder2",
+            "path": "packs/inkfinder2-tattoos.db",
+            "name": "inkfinder2-tattoos",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inkfinder 2 Feats/Features",
+            "module": "inkfinder2",
+            "path": "packs/inkfinder2-featsfeatures.db",
+            "name": "inkfinder2-featsfeatures",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inkfinder 2 Actions",
+            "module": "inkfinder2",
+            "path": "packs/inkfinder2-actions.db",
+            "name": "inkfinder2-actions",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inkfinder 2 Effects",
+            "module": "inkfinder2",
+            "path": "packs/inkfinder2-effects.db",
+            "name": "inkfinder2-effects",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inkfinder 2 Spells",
+            "module": "inkfinder2",
+            "path": "packs/inkfinder2-spells.db",
+            "name": "inkfinder2-spells",
+            "system": "pf2e"
+        }
+    ],
+    "manifest": "",
+    "download": ""
+}
