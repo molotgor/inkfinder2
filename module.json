@@ -1,11 +1,10 @@
 {
   "title": "Inkfinder 2",
   "description": "A module containing the exported Inkfinder 2 compendium.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "authors": [
     {
@@ -30,24 +29,6 @@
       }
     }
   },
-  "packFolders": [
-    {
-      "name": "Inkfinder 2",
-      "sorting": "m",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "packs": [
-        "inkfinder2-tattoos",
-        "inkfinder2-featsfeatures",
-        "inkfinder2-spells",
-        "inkfinder2-actions",
-        "inkfinder2-effects"
-      ],
-      "folders": []
-    }
-  ],
   "packs": [
     {
       "type": "Item",
@@ -93,6 +74,31 @@
       "system": "pf2e",
       "private": false,
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Brian W. Lane Books",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Inkfinder 2",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "inkfinder2-tattoos",
+            "inkfinder2-featsfeatures",
+            "inkfinder2-spells",
+            "inkfinder2-actions",
+            "inkfinder2-effects"
+          ],
+          "folders": []
+        }
+      ]
     }
   ],
   "url": "https://github.com/molotgor/inkfinder2",
